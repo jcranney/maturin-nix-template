@@ -1,6 +1,7 @@
 /target
 .mypy_cache
 *.pyi
+coverage.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

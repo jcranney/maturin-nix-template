@@ -3,7 +3,7 @@ requires = ["maturin>=1.15,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "fresnel-prop"
+name = "my-maturin-project"
 requires-python = ">=3.11"
 classifiers = [
     "Programming Language :: Rust",
@@ -18,7 +18,9 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipython>=8.12.3",
-    "matplotlib>=3.7.5",
+    "mypy>=2.4.0",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
 ]
 
 [tool.maturin]

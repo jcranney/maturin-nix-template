@@ -34,6 +34,7 @@
               rust-analyzer
             ];
             shellHook = ''
+              uv sync
               source .venv/bin/activate
             '';
             RUST_SRC_PATH = rustPlatform.rustLibSrc;
